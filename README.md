@@ -9,7 +9,7 @@ Main contents include:
 
     [Fundamentals of Web apps](https://fullstackopen.com/en/part0)
     
-    [View solutions]()
+    [View solutions](https://github.com/xudonghuang1998/Full-Stack-Web-Development-2020/tree/main/Part0)
 
 - [ ] **Part 1:** 
 
