@@ -11,11 +11,11 @@ Main contents include:
     
     [View solutions](https://github.com/xudonghuang1998/Full-Stack-Web-Development-2020/tree/main/Part0)
 
-- [ ] **Part 1:** 
+- [x] **Part 1:** 
 
     [Introduction to React](https://fullstackopen.com/en/part1)
     
-    [View solutions]()
+    [View solutions](https://github.com/xudonghuang1998/Full-Stack-Web-Development-2020/tree/main/Part1)
 
 - [ ] **Part 2:** 
 
