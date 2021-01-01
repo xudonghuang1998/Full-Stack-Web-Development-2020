@@ -17,11 +17,11 @@ Main contents include:
     
     [View solutions](https://github.com/xudonghuang1998/Full-Stack-Web-Development-2020/tree/main/Part1)
 
-- [ ] **Part 2:** 
+- [x] **Part 2:** 
 
     [Communicating with server](https://fullstackopen.com/en/part2)
     
-    [View solutions]()
+    [View solutions](https://github.com/xudonghuang1998/Full-Stack-Web-Development-2020/tree/main/Part2)
     
 - [ ] **Part 3:** 
 
