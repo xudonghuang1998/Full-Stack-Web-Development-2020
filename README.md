@@ -23,11 +23,11 @@ Main contents include:
     
     [View solutions](https://github.com/xudonghuang1998/Full-Stack-Web-Development-2020/tree/main/Part2)
     
-- [ ] **Part 3:** 
+- [x] **Part 3:** 
 
     [Programming a server with NodeJS and Express](https://fullstackopen.com/en/part3)
     
-    [View solutions]()
+    [View solutions](https://github.com/xudonghuang1998/Full-Stack-Web-Development-2020/tree/main/Part3)
     
 - [ ] **Part 4:** 
 
