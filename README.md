@@ -40,38 +40,3 @@ Main contents include:
     [Testing React apps](https://fullstackopen.com/en/part5)
     
     [View solutions]()
-
-- [ ] **Part 6:**
-    
-    [State management with Redux](https://fullstackopen.com/en/part6)
-    
-    [View solutions]()
-    
-- [ ] **Part 7:** 
-
-    [React router, custom hooks, styling app with CSS and webpack](https://fullstackopen.com/en/part7)
-    
-    [View solutions]()
-    
-- [ ] **Part 8:** 
-
-    [GraphQL](https://fullstackopen.com/en/part8)
-    
-    [View solutions]()
-    
-- [ ] **Part 9:** 
-
-    [Typescript](https://fullstackopen.com/en/part9)
-    [View solutions]()
-    
-- [ ] **Part 10:** 
-
-    [React Native](https://fullstackopen.com/en/part10)
-    
-    [View solutions]()
-    
-- [ ] **Part 11:** 
-
-    [CI/CD](https://fullstackopen.com/en/part11)
-    
-    [View solutions]()
