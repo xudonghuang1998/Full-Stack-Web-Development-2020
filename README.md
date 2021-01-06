@@ -1,6 +1,6 @@
 # Full-Stack-Web-Development-2020
 
-This repository contains my exercise solutions for the course [Full Stack Web Development (2020 version)](http://fullstackopen.com/en). For classmates enrolled in the course, it's possible to view my solutions as a reference when you feel confused, but please don't directly plagiarize the source codes and documents. And you're welcomed to disscuss any issues relating to the course contents and exercises with me!
+This repository contains my exercise solutions for the course [Full Stack Web Development (2020 version)](http://fullstackopen.com/en).
 
 This course introduces modern JavaScript-based web development. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js.
 Main contents include:
