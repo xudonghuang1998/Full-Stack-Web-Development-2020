@@ -29,11 +29,11 @@ Main contents include:
     
     [View solutions](https://github.com/xudonghuang1998/Full-Stack-Web-Development-2020/tree/main/Part3)
     
-- [ ] **Part 4:** 
+- [x] **Part 4:** 
 
     [Testing Express servers, user administration](https://fullstackopen.com/en/part4)
     
-    [View solutions]()
+    [View solutions](https://github.com/xudonghuang1998/Full-Stack-Web-Development-2020/tree/main/Part4)
     
 - [ ] **Part 5:** 
 
