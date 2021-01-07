@@ -14,3 +14,11 @@
 - [x] 4.12*: Blog list tests, step5
 - [x] 4.13 Blog list expansions, step1
 - [x] 4.14 Blog list expansions, step2
+- [x] 4.15: bloglist expansion, step3
+- [x] 4.16*: bloglist expansion, step4
+- [x] 4.17: bloglist expansion, step5
+- [x] 4.18: bloglist expansion, step6
+- [x] 4.19: bloglist expansion, step7
+- [x] 4.20*: bloglist expansion, step8
+- [x] 4.21*: bloglist expansion, step9
+- [x] 4.22*: bloglist expansion, step10
