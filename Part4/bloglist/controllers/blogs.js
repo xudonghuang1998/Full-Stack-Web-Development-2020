@@ -7,15 +7,15 @@ blogsRouter.get('/', async (request, response) => {
     const blogs = await Blog
         .find({})
         .populate('user', { username: 1, name: 1 })
-    response.json(blogs.map(blog => blog.toJSON()))
+    return response.json(blogs.map(blog => blog.toJSON()))
 })
 
 blogsRouter.get('/:id', async (request, response, next) => {
     const blog = await Blog.findById(request.params.id)
     if (blog)
-        response.json(blog.toJSON())
+        return response.json(blog.toJSON())
     else
-        response.status(404).end()
+        return response.status(404).end()
 })
 
 blogsRouter.post('/', async (request, response, next) => {
@@ -27,7 +27,7 @@ blogsRouter.post('/', async (request, response, next) => {
     const user = await User.findById(decodedToken.id)
 
     if(!body.title || !body.url)
-        response.status(400).end()
+        return response.status(400).end()
 
     const blog = new Blog({
         title: body.title,
@@ -40,20 +40,20 @@ blogsRouter.post('/', async (request, response, next) => {
     const savedBlog = await blog.save()
     await user.updateOne({blogs: user.blogs.concat(savedBlog._id)})
 
-    response.json(savedBlog.toJSON())
+    return response.json(savedBlog.toJSON())
 })
 
 blogsRouter.delete('/:id', async (request, response, next) => {
     const decodedToken = jwt.verify(request.token, process.env.SECRET)
     if (!request.token || !decodedToken.id) {
-        response.status(401).json({ error: 'token missing or invalid' })
+        return response.status(401).json({ error: 'token missing or invalid' })
     }
     const user = await User.findById(decodedToken.id)
     const blog = await Blog.findById(request.params.id)
     if(blog.user.toString() !== user.id.toString())
-        response.status(401).end()
+        return response.status(401).end()
     await Blog.findByIdAndRemove(request.params.id)
-    response.status(204).end()
+    return response.status(204).end()
 })
 
 blogsRouter.put('/:id', async (request, response, next) => {
@@ -67,7 +67,7 @@ blogsRouter.put('/:id', async (request, response, next) => {
     }
 
     const updatedBlog = await Blog.findByIdAndUpdate(request.params.id, blog, { new: true })
-    response.json(updatedBlog.toJSON())
+    return response.json(updatedBlog.toJSON())
 })
 
 module.exports = blogsRouter
