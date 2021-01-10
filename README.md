@@ -35,8 +35,8 @@ Main contents include:
     
     [View solutions](https://github.com/xudonghuang1998/Full-Stack-Web-Development-2020/tree/main/Part4)
     
-- [ ] **Part 5:** 
+- [x] **Part 5:** 
 
     [Testing React apps](https://fullstackopen.com/en/part5)
     
-    [View solutions]()
+    [View solutions](https://github.com/xudonghuang1998/Full-Stack-Web-Development-2020/tree/main/part5)
