@@ -74,9 +74,6 @@ describe('Blog app', () => {
                 cy.contains('delete').click()
                 cy.get('html').should('not.contain', 'third blog')
             })
-
-
-
         })
     })
 
